@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <!--<link rel="stylesheet" href="myStyles.css"> -->
+        <title>Brad's Javascript Samples</title>
+        <!-- Bootstrap CSS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="myJavascript.js"></script>
+    </head>
+    <body class="bg-dark">
+        <div class="container min-vh-100 bg-info" id="centreBackground">
+            <div class="display-1 text-primary bg-light">Brad's Javascript Demos</div>
+            <div class="card border-light my-3 invisible" id="menuCard">
+                <div class="card-header display-3 text-secondary" id="menuHeader"></div>
+                <div class="card-title h5" id="menuTitle"></div>
+                <div class="card-text" id="menuTextContent"></div>
+                <div class="card-footer"></div>
+                <div class="btn border-success bg-light" id="cardButton1"></div>
+                <div class="btn border-danger bg-light" id="cardButton2"></div>
+            </div>
+            <div class="btn bg-light text-dark border-light" id="mainButton" onclick="displayMenu()">Main</div>
+            <div class="btn bg-light text-success border-light" id="countButton" onclick="displayMenu('Counter')">Count</div>
+            <div class="btn bg-light text-danger border-light" id="themeButton" onclick="displayMenu('Theme')">Theme</div>
+
+        </div>
+    </body>
+</html>
